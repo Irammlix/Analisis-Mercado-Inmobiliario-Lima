@@ -260,3 +260,37 @@ La comparación entre el precio por metro cuadrado de cada inmueble y el comport
 
 Aunque el modelo predictivo no explica completamente la variabilidad de los precios, permitió generar una segunda perspectiva para la detección de oportunidades y evidenció la existencia de factores adicionales que podrían incorporarse en futuras investigaciones.
 
+# 🚀 Cómo explorar el proyecto
+
+## Clonar repositorio
+
+```bash
+git clone https://github.com/Irammlix/Analisis-Mercado-Inmobiliario-Lima.git
+```
+
+## Estructura del proyecto
+
+```text
+Analisis-Mercado-Inmobiliario-Lima
+│
+├── README.md
+├── dashboard/
+│   └── AnalisisMercadoInmobiliario.pbix
+│
+├── data/
+   ├── excelpowerbi.xlsx
+   └── resultado_ml_v3.xlsx
+```
+
+## Visualización del dashboard
+
+1. Abrir el archivo `AnalisisMercadoInmobiliario.pbix` utilizando Power BI Desktop.
+2. Verificar que los archivos ubicados en la carpeta `data/` se encuentren correctamente conectados.
+3. En caso de ser necesario, actualizar las rutas de origen de datos.
+4. Explorar las distintas páginas del dashboard:
+
+   - Panorama del Mercado
+   - Mercado y Valorización
+   - Factores del Precio
+   - Oportunidades de Inversión
+   - Análisis Predictivo Complementario
